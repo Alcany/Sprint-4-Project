@@ -1,6 +1,25 @@
 # Creating a Web Application Dashboard to Visualize Vehicle Data
 US Car data listing 1000's of cars by price, condition, year, make & model
-
-
-
-web app link: https://sprint-4-project-opt3.onrender.com
+# Project Description
+This project aims to provide you with additional practice on common software engineering tasks. These tasks will augment and complement your data skills, and make you a more attractive job candidate to potential employers. You will be asked to develop and deploy a web application to a cloud service so that it is accessible to the public.  The dataset used for this project is made up of used car sales advertisements.
+# Step 1. Getting started!
+Create a GitHub account, a new git repository with a README.md file and a .gitignore file.
+Create a new Python environment and install necessary packages for processing & visualization.
+Create a Render account, link to Github and clone project's Git repository locally.
+Install VS Code and set the Python interpreter to the one used by the virtual environment. Make sure you have the necessary packages installed.
+# Step 2. Download the data file!
+Download the car advertisement dataset (vehicles_us.csv) or find your own dataset in a CSV format.
+Place the dataset in the root directory of the project.
+# Step 3. Exploratory Data Analysis!
+Create an EDA.ipynb Jupyter notebook in VS Code.
+Save the notebook in the notebooks directory of your project.
+Perform some exploratory analysis of the dataset in the notebook.
+Create histograms and scatterplots using plotly-express library.
+# Step 4. Develop the Web Application Dashboard!
+Create an app.py file in the root of the project’s directory then import streamlit, pandas, and plotly.express.
+Read the dataset’s CSV file into a Pandas DataFrame adding headers, histograms and plots.
+Update the README file to contain a basic description of the project, explaining that this is a tool to simulate random events.
+# Step 5. Deploy the application to Render!
+To make Streamlit compatible with Render, we need to create two new files: requirements.txt and .streamlit/config.toml.
+First, we need to create the requirements.txt file. Create this new file in your project folder’s root level. Then, add the project’s required packages.
+# Web app link: https://sprint-4-project-opt3.onrender.com
