@@ -1,7 +1,7 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
-import matplotlib.pyplot as plt
 import seaborn as sns
 df = pd.read_csv('./cleaned_vehicles_us.csv')
 st.title("Web Application Dashboard")
