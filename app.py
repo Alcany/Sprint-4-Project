@@ -1,5 +1,7 @@
 import pandas as pd
+import scipy.stats
 import streamlit as st
+import time
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
