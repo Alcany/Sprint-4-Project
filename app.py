@@ -22,7 +22,6 @@ plt.xlabel('Price Range')
 plt.ylabel('Count of Cars')
 plt.xticks(rotation=45)
 plt.tight_layout()
-st.pyplot(plt)
 st.write('The prices of the cars appear to be fairly varied. With such a large inventory of vehicles, many pricepoints are represented.')
 st.header('Histogram of `condition` vs `model_year`')
 fig = px.histogram(df, x='model_year', color='condition')
@@ -33,7 +32,6 @@ if normalize:
     histnorm = 'percent'
 else:
     histnorm = None
-st.pyplot(plt)
 st.header('Vehicle types manufacturer')
 fig = px.histogram(df, x='type', color='price')
 st.write(fig)
